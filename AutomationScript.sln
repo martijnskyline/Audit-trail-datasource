@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{1000FDD1-ADE4-4764-B265-D482DDC5111F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{A86677AA-0CF2-4205-AD27-180E8813014F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{6DCFFEA9-50F2-4C31-941E-6E61038CFC07}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\AboutThisFolder.md = Dlls\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{80910E8F-8E9F-4AC2-929E-17C81AC3667D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{1845A58C-85BA-44E1-B168-C3A13EEBA0F7}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{39218963-93F8-4DA6-A417-0C0D6D96D356}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\AboutThisFolder.md = Documentation\AboutThisFolder.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{D6F0E498-A135-40B1-A7E0-3C9FC8D1E766}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DOM audit trail datasource", "DOM audit trail datasource", "{BE2CC929-B440-4CA4-8718-F599D0A4505C}"
+	ProjectSection(SolutionItems) = preProject
+		DOM audit trail datasource.xml = DOM audit trail datasource.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{0F737745-9D3F-4A08-9562-03350F323B64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOM audit trail datasource_1", "DOM audit trail datasource_1\DOM audit trail datasource_1.csproj", "{B4C90502-16E6-4147-82CA-0A4E5CF51921}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4C90502-16E6-4147-82CA-0A4E5CF51921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C90502-16E6-4147-82CA-0A4E5CF51921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C90502-16E6-4147-82CA-0A4E5CF51921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C90502-16E6-4147-82CA-0A4E5CF51921}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1845A58C-85BA-44E1-B168-C3A13EEBA0F7} = {80910E8F-8E9F-4AC2-929E-17C81AC3667D}
+		{D6F0E498-A135-40B1-A7E0-3C9FC8D1E766} = {1000FDD1-ADE4-4764-B265-D482DDC5111F}
+		{BE2CC929-B440-4CA4-8718-F599D0A4505C} = {A86677AA-0CF2-4205-AD27-180E8813014F}
+		{0F737745-9D3F-4A08-9562-03350F323B64} = {BE2CC929-B440-4CA4-8718-F599D0A4505C}
+		{B4C90502-16E6-4147-82CA-0A4E5CF51921} = {0F737745-9D3F-4A08-9562-03350F323B64}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FC6CD1F-48E4-4920-9208-3579D0C79738}
+	EndGlobalSection
+EndGlobal
